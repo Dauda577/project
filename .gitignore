@@ -1,0 +1,15 @@
+# Root-level ignore for stray dev/test artifacts that keep getting created
+# during live testing sessions. Real source lives in tracked subfolders
+# (control-panel/, udns-core/, mcp-server/) which have their own ignores
+# for build output (target/, node_modules/, dist/).
+
+*.log
+*.bak
+tasks.db
+*_install.log
+*_install_err.log
+hub_*.log
+hub_*.bat
+lan_test_payload.txt
+verify_pull.jpg
+udns_test_img.jpg
